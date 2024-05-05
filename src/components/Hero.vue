@@ -53,7 +53,6 @@ defineProps({
 .left-p {
   line-height: 1.5;
   margin: 0 0 24px;
-  color: #58667e;
   font-size: 16px;
   max-width: 580px;
   max-width: 460px;

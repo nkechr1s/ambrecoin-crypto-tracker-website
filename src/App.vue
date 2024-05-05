@@ -5,8 +5,10 @@ import Features from "./components/Features.vue";
 
 <template>
   <Hero
-    title="Discover, every cryptocurrency you want with our browser extension."
-    button
+    title="Track Every Crypto Move with Ease!"
+    subTitle="Explore, Analyze, and Stay Ahead of the Market Trends."
+    button="Download Now"
   />
+
   <Features />
 </template>
