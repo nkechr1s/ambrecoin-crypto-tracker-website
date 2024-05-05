@@ -64,7 +64,7 @@ defineProps({
   line-height: 1.5;
   transition: color 0.5s;
   font-size: 22px;
-  max-width: 520px;
+  max-width: 600px;
   font-weight: 500;
 }
 
