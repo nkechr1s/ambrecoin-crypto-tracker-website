@@ -7,7 +7,7 @@ import Footer from "./components/Footer.vue";
 <template>
   <Hero
     title="Track every crypto move with ease! - ambrecoin.com"
-    subTitle="Explore, analyze, and stay ahead of the market trends. Download the extension now."
+    subTitle="Explore, analyze, and stay ahead of the market trends. Download the extension now"
     button="Download Now"
   />
   <Features />
