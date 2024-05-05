@@ -1,9 +1,9 @@
 <template>
   <div class="feature-grid">
     <div v-for="(feature, index) in features" :key="index" class="feature">
-      <img :src="feature.image" :alt="feature.title" class="feature-image" />
-      <h2 class="feature-title">{{ feature.title }}</h2>
-      <p class="feature-description">{{ feature.description }}</p>
+      <img v-if="feature.image" :src="feature.image" :alt="feature.title" class="feature-image" />
+      <h2 v-if="feature.title" class="feature-title">{{ feature.title }}</h2>
+      <p v-if="feature.description" class="feature-description">{{ feature.description }}</p>
     </div>
   </div>
 </template>
@@ -35,6 +35,7 @@ export default {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  max-width:80px;
 }
 
 .feature-title {

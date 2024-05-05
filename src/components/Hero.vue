@@ -38,7 +38,7 @@ defineProps({
 
 .hero-area.hero {
   height: 50vh;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   align-items: center;
 }
 
