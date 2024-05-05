@@ -73,4 +73,12 @@
 .data-provider a {
   color: #9ce7bd;
 }
+@media (max-width: 980px) {
+  .data-provider {
+    justify-content: center;
+  }
+  .footer-top {
+    padding: 0.5rem;
+  }
+}
 </style>

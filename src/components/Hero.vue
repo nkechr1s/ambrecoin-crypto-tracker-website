@@ -54,7 +54,6 @@ defineProps({
   line-height: 1.5;
   margin: 0 0 24px;
   font-size: 16px;
-  max-width: 580px;
   max-width: 460px;
 }
 
@@ -67,5 +66,28 @@ defineProps({
   max-width: 220px;
   display: flex;
   justify-content: flex-start;
+}
+
+@media (max-width: 980px) {
+  .hero-area {
+    flex-direction: column;
+    height: unset !important;
+    margin-bottom: 5rem !important;
+  }
+  .left-col h1 {
+    max-width: unset;
+    font-size: 24px;
+    margin-top:5px;
+    line-height:125%;
+  }
+  .left-p {
+    font-size:14px;
+  }
+  .right-col > img {
+    max-width: 300px;
+  }
+  .download-btn {
+    max-width: 140px;
+  }
 }
 </style>
