@@ -42,7 +42,7 @@ export default {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  max-width: 80px;
+  max-width: 60px;
 }
 
 .feature-title {
