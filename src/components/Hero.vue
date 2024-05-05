@@ -9,7 +9,7 @@ defineProps({
 <template>
   <div class="hero-area hero">
     <div class="left-col">
-      <h1 v-if="title" class="hero-title">{{ title }}</h1>
+      <h1 v-if="title" class="hero-title" v-html="title"></h1>
       <p v-if="subTitle" class="left-p">{{ subTitle }}</p>
 
       <a
@@ -44,17 +44,28 @@ defineProps({
 
 .left-col h1 {
   font-weight: 700;
-  font-size: 32px;
-  line-height: 55px;
+  font-size: 48px;
+  line-height: 1.25;
   margin-top: 30px;
-  max-width: 550px;
+  max-width: 640px;
+  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-bottom: 0px;
 }
 
 .left-p {
+  background: linear-gradient(146deg, #fff, #757a7d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 1.5;
-  margin: 0 0 24px;
-  font-size: 16px;
-  max-width: 460px;
+  transition: color 0.5s;
+  font-size: 22px;
+  max-width: 520px;
+  font-weight: 500;
 }
 
 .right-col > img {
@@ -77,11 +88,11 @@ defineProps({
   .left-col h1 {
     max-width: unset;
     font-size: 24px;
-    margin-top:5px;
-    line-height:125%;
+    margin-top: 5px;
+    line-height: 125%;
   }
   .left-p {
-    font-size:14px;
+    font-size: 14px;
   }
   .right-col > img {
     max-width: 300px;
