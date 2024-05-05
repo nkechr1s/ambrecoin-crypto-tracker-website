@@ -5,8 +5,8 @@ import Features from "./components/Features.vue";
 
 <template>
   <Hero
-    title="Track Every Crypto Move with Ease!"
-    subTitle="Explore, Analyze, and Stay Ahead of the Market Trends."
+    title="Track every crypto move with ease! - ambrecoin.com"
+    subTitle="Explore, analyze, and stay ahead of the market trends. Download the extension now."
     button="Download Now"
   />
 
