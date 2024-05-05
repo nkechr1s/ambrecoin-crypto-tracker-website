@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  color: white;
+  color: #FEFEFEDE;
 }
 
 .footer-icon {
@@ -45,7 +45,7 @@
 .footer-bottom {
   text-align: center;
   padding: 1rem 0;
-  color: white;
+  color: #FEFEFEDE;
 }
 
 .coin-gecko-logo {

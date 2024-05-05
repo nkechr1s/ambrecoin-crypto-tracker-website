@@ -48,11 +48,13 @@ export default {
 .feature-title {
   margin-top: 10px;
   font-size: 1.2rem;
+  color:#FEFEFEDE;
 }
 
 .feature-description {
   margin-top: 5px;
   font-size: 1rem;
+  color: rgba(235, 235, 235, .6);
 }
 
 @media (max-width: 980px) {
