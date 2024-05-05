@@ -2,7 +2,7 @@
   <div class="feature-grid">
     <div v-for="(feature, index) in features" :key="index" class="feature">
       <img :src="feature.image" :alt="feature.title" class="feature-image" />
-      <h3 class="feature-title">{{ feature.title }}</h3>
+      <h2 class="feature-title">{{ feature.title }}</h2>
       <p class="feature-description">{{ feature.description }}</p>
     </div>
   </div>
