@@ -16,7 +16,7 @@ defineProps({
         target="_blank"
         rel="noreferrer"
         v-if="button"
-        href="https://google.com"
+        href="https://chromewebstore.google.com/detail/ambrecoin-crypto-prices/dpcmehikllndnhclamckhcnlhfokbakk"
       >
         <img class="download-btn" src="../assets/download.png"
       /></a>
